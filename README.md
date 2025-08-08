@@ -23,5 +23,7 @@ curl -s -X GET https://example.com/api/nginx/certificates \
 curl -s -X GET https://example.com/api/nginx/access-lists \
   -H "Authorization: Bearer $(cat npm_token.txt)" | jq
 ```
+```bash
 curl -s -X GET https://example.com/api/users \
-  -H "A```uthorization: Bearer $(cat npm_token.txt)" | jq
+  -H "Authorization: Bearer $(cat npm_token.txt)" | jq
+```
